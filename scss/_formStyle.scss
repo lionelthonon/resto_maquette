@@ -1,0 +1,122 @@
+/* --- Colors --- */
+$color: #404040;
+$border_color: rgba(255, 255, 255, 0.9);
+$background_color: lighten($border_color, 10%);
+
+
+/* --- Formulaire --- */
+form.inscription:before {
+    content:"";
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid $color;
+    margin: 0.5em;
+}
+
+form.inscription {
+    
+    position: relative;
+    color: $color;
+    
+    legend {
+        font-size: 18pt;
+        margin: 0.5em 0;
+    }
+    
+    input {
+        border-radius: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        padding: 0.15em 0.3em;
+        margin: 0.25em 2em;
+    } 
+    
+    input:focus {
+        border: 1px solid $color;
+    }
+
+    label {
+        display: inline-block;
+        margin-left: 1em;
+        text-align: right;
+        width: 30%;
+        color: $color;
+    }
+
+    //Style for radio inputs
+    input[type="radio"] + label {
+        text-align: left;
+        display: inline;
+        margin: 0.25em 0em 0.25em 0.25em;
+    }
+    
+    input[type="radio"] {
+        margin: 0.25em 0em;
+    }
+    
+    ul {
+        position: absolute;
+        list-style-type: none;
+        left: 16em;
+        top: -2.6em;
+        display: inline-block;
+    }
+    
+    div {
+        min-height: 3.5em;
+        position: relative;
+    }
+
+    //Style for second fieldset
+    fieldset + fieldset > label {
+        width: 40%;
+    }
+    
+    //Style for stars (required fields)
+    span {
+        color: darkred;
+        position: absolute;
+    }
+    
+    span.places-left {
+        color: gray;
+        position: relative;
+        margin-left: 25em;
+        font-size: 0.75em;
+    }
+    
+    //Style for submit button
+    button {
+        display: block;
+        border-radius: 25px;
+        font-family: 'Roboto', sans-serif;
+        
+        //Dimensions : 159x21 px
+        //Font = 16px
+        width: 12em;
+        padding: 0.75em 0;
+        
+        margin: 2em 0 0 11.5em;
+        
+        border: none;
+        background-color: rgba(210,210,210, 0.9);
+        transition: background-color ease 400ms;
+    }
+    
+    button:hover {
+        background-color: rgba(210,210,210, 0.4);
+        transition: background-color ease 400ms;
+    }
+
+}
+
+div#main {
+    position: relative;
+}
+img#deco-form {
+    display: block;
+    border-radius: 3px;
+    border: 3px solid rgba(210,210,210, 0.4);
+    position: absolute;
+    top: 20.5em;
+    right: 11em;
+}

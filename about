@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Accueil - RestoRallye</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--[if lt IE 9]>
+            <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title"><a href="accueil.html">RestoRallye</a><!--<span>La nouvelle vague gastronomique</span>--></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="inscription.html">Inscription</a></li>
+                        <li><a href="historique.html">Historique</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <article>
+			<form action="#" method="post">
+				<fieldset>
+					<legend>À propos de vous</legend>
+
+					<label>Société</label> <input type="text" name="company" placeholder="ASBL RestoRallye" /><br>
+					<label>Nom*</label> <input type="text" name="name" placeholder="Durant" /><br>
+					<label>Prénom*</label> <input type="text" name="firstname" placeholder="Alain" /><br>
+					<label>Adresse*</label> <input type="text" name="adress" placeholder="Rue des gourmands n°12" /><br>
+					<label>Code postal*</label> <input type="text" name="postalcode" placeholder="1234" /><br>
+					<label>Ville*</label> <input type="text" name="city" /><br>
+					<label>Téléphone*</label> <input type="text" name="phone" placeholder="0471 38 06 38" /><br>
+					<label>Fax</label> <input type="text" name="fax" /><br>
+					<label>Email*</label> <input type="text" name="email" placeholder="exemple@restorallye.be" /><br>
+					<label>Confirmez l'email*</label> <input type="text" />
+
+					<p>Les champs marqués d'un * sont obligatoires</p>
+				</fieldset>
+
+				<fieldset>
+					<legend>Inscription</legend>
+					
+					<label>Nom des personnes ou du groupe</label> <input type="text" name="groupname" placeholder="ASBL RestoRallye" /><br>
+					<label>Lieu et date</label> <input type="radio" name="place" value="Seraing">Seraing, le 21 octobre 2014<br>
+												<input type="radio" name="place" value="Liege">Liège, le 15 novembre 2014<br>
+												<input type="radio" name="place" value="Flemalle">Flémalle, le 31 décembre 2014<br>
+					<label>Nombre de personnes</label> <input type="text" name="groupnumber" /><br>
+				</fieldset>
+
+				<button type="submit">Inscription</button>
+			</form>
+
+			<form action="#" method="post">
+				<fieldset>
+					<legend>Demande de devis</legend>
+
+					<label>Type de devis</label> <input type="checkbox" name="type" value="teamBuilding" />Team Building<br>
+												 <input type="checkbox" name="type" value="companyDay" />Journée du personnel<br>
+												 <input type="checkbox" name="type" value="seminary" />Séminaire<br>
+												 <input type="checkbox" name="type" value="other" />Autre<br>
+					<label>Lieu</label> <input type="text" name="place" /><br>
+					<label>Date</label> <input type="text" name="date" placeholder="jj/mm/aaaa" /><br>
+					<label>Nombre de personnes</label> <input type="text" name="groupnumber" /><br>
+					<label>Message</label> <textarea name="message" width="200" height="400"></textarea>
+				</fieldset>
+
+				<button type="submit">Demander le devis</button>
+			</form>
+                </article>
+
+                <aside>
+                    <h3>Inscription au prochain RestoRallye</h3>
+                    <p>Le droit d’inscription à un RestoRallye est fixé à 57 € par participant. Ce forfait comprend l’apéritif et ses mises en bouche, l’entrée froide, l’entrée chaude, le plat principal. Chaque service est accompagné d’un verre de vin et d’un verre d’eau. L’évènement se termine dans la convivialité autour du dessert, café et pousse café.
+                    </p>
+                    <p>Pour toute inscription ou renseignement complémentaire, remplissez le formulaire ci‐dessous ou envoyez‐nous un mail à : info@restorallye.be
+                    </p>
+                </aside>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+			<div class="contact">
+				<h2>Contactez-nous !</h2>
+				<p>
+					<span>ASBL RestoRallye</span></br>
+					<span>Tel. :</span> 0471 38 06 38</br>
+					<span>Email :</span> info@restorallye.be</br>
+				</p>
+			</div>
+			<div class="social">
+				<h2>Réseaux sociaux</h2>
+				<ul>
+					<li><a href="https://www.facebook.com/RestoRallye"><img src="img/facebook.png" alt="Facebook"></a></li>
+					<li><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+				</ul>
+			</div>
+			<span id="legal">ASBL RestoRallye - 2014</span>
+            </footer>
+        </div>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
